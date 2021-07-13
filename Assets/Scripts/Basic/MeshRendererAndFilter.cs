@@ -6,7 +6,6 @@ public class MeshRendererAndFilter : MonoBehaviour
 {
     private MeshFilter filter;
     private Mesh filterMesh;
-    private MeshRenderer renderer;
 
     //绘制三角形顶点坐标
     private Vector3[] vertices;
@@ -21,11 +20,11 @@ public class MeshRendererAndFilter : MonoBehaviour
     {
         filter = gameObject.GetComponent<MeshFilter>();
         filterMesh = filter.mesh;
-        renderer = gameObject.GetComponent<MeshRenderer>();
     }
 
     private void Start()
     {
+        var renderer = gameObject.GetComponent<MeshRenderer>();
         list = new List<Vector3>();
         renderer.material.color = Color.green;
         renderer.material.shader = Shader.Find("Transparent/Diffuse");

@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Basic\MeshRendererAndFilter.cs" />
+    <Compile Include="Assets\Scripts\CSharp\LinqStudy.cs" />
     <Compile Include="Assets\Scripts\Odin\Essentials\AssetsOnlyExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Essentials\CustomValueDrawerExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Essentials\DelayedPropertyExample.cs" />
@@ -72,6 +73,9 @@
     <Compile Include="Assets\Scripts\Odin\Essentials\PropertySpaceExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Essentials\ReadOnlyExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Essentials\RequiredExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Essentials\SearchableExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Essentials\SearchableExample_1.cs" />
+    <Compile Include="Assets\Scripts\Odin\Essentials\SearchableExample_2.cs" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>D:/UnityProject/Box2DStudy/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>

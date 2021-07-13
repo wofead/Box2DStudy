@@ -91,6 +91,7 @@ namespace Jow
 
             //查询方法:返回匿名类
             var query2 = emp.Where(p => p.Name.StartsWith("王")).Select(p => p);
+            var query3 = emp.Where(p => p.Name.StartsWith("王")).Select(p => p);
             foreach (var item in query1)
             {
                 Console.WriteLine(item.Name);

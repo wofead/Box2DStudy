@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 106}
-  m_MinSize: {x: 950, y: 524}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -998,10 +998,10 @@ MonoBehaviour:
     y: 0
     width: 690
     height: 947
-  m_MinSize: {x: 232, y: 474}
-  m_MaxSize: {x: 10002, y: 14024}
+  m_MinSize: {x: 232, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 49
+  controlID: 57
 --- !u!114 &46
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2344,7 +2344,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 524}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &107
 MonoBehaviour:
@@ -2412,10 +2412,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 947, y: 474}
-  m_MaxSize: {x: 28012, y: 14024}
+  m_MinSize: {x: 947, y: 498}
+  m_MaxSize: {x: 28012, y: 14048}
   vertical: 0
-  controlID: 100
+  controlID: 75
 --- !u!114 &110
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2435,8 +2435,8 @@ MonoBehaviour:
     y: 0
     width: 690
     height: 456
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 118}
   m_Panes:
   - {fileID: 118}
@@ -2543,7 +2543,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 529
-    width: 677
+    width: 688
     height: 471
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &115
@@ -2619,14 +2619,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\unity\Box2DStudy
+  m_LastProjectPath: D:\UnityProject\Box2DStudy
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d22c0000
-    m_LastClickedID: 11474
-    m_ExpandedIDs: 00000000d22c0000722d0000822d0000d02d0000162f000000ca9a3b
+    m_SelectedIDs: 702c0000
+    m_LastClickedID: 11376
+    m_ExpandedIDs: 00000000702c0000062d0000122d0000442d00005a2e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2654,7 +2654,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d22c0000722d0000822d0000d02d0000162f0000
+    m_ExpandedIDs: 00000000702c0000062d0000122d0000442d00005a2e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2898,9 +2898,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f62f0000
-      m_LastClickedID: 12278
-      m_ExpandedIDs: d2faffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: ecfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2962,20 +2962,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Plugins
+    - Assets/Editor
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Plugins/Sirenix
+  - Assets/Editor
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: E:\unity\Box2DStudy
+  m_LastProjectPath: D:\UnityProject\Box2DStudy
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 662d0000
-    m_LastClickedID: 11622
-    m_ExpandedIDs: 00000000d22c0000822d0000d02d0000162f000000ca9a3b
+    m_SelectedIDs: 442d0000
+    m_LastClickedID: 11588
+    m_ExpandedIDs: 00000000702c0000fa2c0000062d0000122d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3003,7 +3003,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d22c0000722d0000822d0000d02d0000162f0000
+    m_ExpandedIDs: 00000000702c0000062d0000122d0000442d00005a2e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3034,18 +3034,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 846900006e530000ca4600004e550000c05b0000f65000009e040000ae410000e09f000022a00000d25700005e6e0000125700007a6b00007e510000f46f0000726b0000dc740000845c0000a2620000f6ad0000de540000bc870000564e0000b6cc0000c6840000b419ffff428100002a1f07002c120100dea60000466f000060c30000a6a7000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Odin Validator
-      m_OriginalName: Odin Validator
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 11696
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 112}
     m_CreateAssetUtility:

@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 106}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 374}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -967,16 +967,16 @@ MonoBehaviour:
     y: 456
     width: 690
     height: 491
-  m_MinSize: {x: 232, y: 274}
-  m_MaxSize: {x: 10002, y: 10024}
-  m_ActualView: {fileID: 116}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 114}
   m_Panes:
   - {fileID: 116}
   - {fileID: 115}
   - {fileID: 117}
   - {fileID: 114}
-  m_Selected: 0
-  m_LastSelected: 3
+  m_Selected: 3
+  m_LastSelected: 2
 --- !u!114 &45
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -998,10 +998,10 @@ MonoBehaviour:
     y: 0
     width: 690
     height: 947
-  m_MinSize: {x: 232, y: 498}
-  m_MaxSize: {x: 10002, y: 14048}
+  m_MinSize: {x: 200, y: 324}
+  m_MaxSize: {x: 4002, y: 8024}
   vertical: 1
-  controlID: 57
+  controlID: 68
 --- !u!114 &46
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2344,7 +2344,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 374}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &107
 MonoBehaviour:
@@ -2412,10 +2412,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 947, y: 498}
-  m_MaxSize: {x: 28012, y: 14048}
+  m_MinSize: {x: 911, y: 324}
+  m_MaxSize: {x: 22008, y: 10024}
   vertical: 0
-  controlID: 75
+  controlID: 111
 --- !u!114 &110
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2435,8 +2435,8 @@ MonoBehaviour:
     y: 0
     width: 690
     height: 456
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 118}
   m_Panes:
   - {fileID: 118}
@@ -2461,8 +2461,8 @@ MonoBehaviour:
     y: 0
     width: 402
     height: 947
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 119}
   m_Panes:
   - {fileID: 119}
@@ -2574,7 +2574,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1528
+  m_LastSelectedObjectID: -4022
 --- !u!114 &116
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2619,14 +2619,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\UnityProject\Box2DStudy
+  m_LastProjectPath: E:\unity\Box2DStudy
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 702c0000
-    m_LastClickedID: 11376
-    m_ExpandedIDs: 00000000702c0000062d0000122d0000442d00005a2e000000ca9a3b
+    m_SelectedIDs: 6c2c0000
+    m_LastClickedID: 11372
+    m_ExpandedIDs: 000000006c2c0000f62c0000022d00000e2d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2654,7 +2654,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000702c0000062d0000122d0000442d00005a2e0000
+    m_ExpandedIDs: 000000006c2c0000f62c0000022d00000e2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2732,7 +2732,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 529
-    width: 800
+    width: 688
     height: 471
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
@@ -2757,7 +2757,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -2766,25 +2766,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 800
+      width: 688
       height: 454
     m_Scale: {x: 0.5911458, y: 0.5911458}
-    m_Translation: {x: 399.99997, y: 227}
+    m_Translation: {x: 344, y: 227}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -676.652
+      x: -581.9207
       y: -384
-      width: 1353.304
+      width: 1163.8414
       height: 768
     m_MinimalGUI: 1
   m_defaultScale: 0.5911458
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 800, y: 471}
+  m_LastWindowPixelSize: {x: 688, y: 471}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000000000000
@@ -2900,7 +2900,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ecfaffff
+      m_ExpandedIDs: f0faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2962,20 +2962,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Editor
+    - Assets/Scripts/Odin/Essentials
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Editor
+  - Assets/Scripts/Odin/Essentials
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\UnityProject\Box2DStudy
+  m_LastProjectPath: E:\unity\Box2DStudy
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 442d0000
-    m_LastClickedID: 11588
-    m_ExpandedIDs: 00000000702c0000fa2c0000062d0000122d000000ca9a3b
+    m_SelectedIDs: bc2e0000
+    m_LastClickedID: 11964
+    m_ExpandedIDs: 000000006c2c0000f62c0000022d00000e2d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3003,7 +3003,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000702c0000062d0000122d0000442d00005a2e0000
+    m_ExpandedIDs: 000000006c2c0000f62c0000022d00000e2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3030,7 +3030,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 846900006e530000ca4600004e550000c05b0000f65000009e040000ae410000e09f000022a00000d25700005e6e0000125700007a6b00007e510000f46f0000726b0000dc740000845c0000a2620000f6ad0000de540000bc870000564e0000b6cc0000c6840000b419ffff428100002a1f07002c120100dea60000466f000060c30000a6a7000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

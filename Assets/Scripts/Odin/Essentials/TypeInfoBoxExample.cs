@@ -10,7 +10,7 @@ public class TypeInfoBoxExample : MonoBehaviour
     public MyScripty Scripty = null;
     public void Awake()
     {
-        Scripty = new MyScripty();
+        Scripty = ScriptableObject.CreateInstance<MyScripty>();
     }
 
     [Serializable]

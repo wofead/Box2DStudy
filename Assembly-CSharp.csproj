@@ -88,40 +88,48 @@
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\ChildGameObjectOnly.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\ColorPaletteExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\DisplayAsStringExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\TypeSpecifics\ExampleTransform.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\FilePathExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\FolderPathExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\HideInInlineEditorsExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\HideInTablesExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\HideMonoScriptExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\HideReferenceObjectPickerExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\TypeSpecifics\InlineEditorExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\TypeSpecifics\MultiLinePropertyExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\MyInlineScriptableObject .cs" />
+    <Compile Include="Assets\Scripts\Odin\TypeSpecifics\PreviewFieldExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\TypeSpecifics\SceneObjectsOnlyExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\TypeSpecifics\SceneObjectsOnlyFieldExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\ShowMonoScriptExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\TypeSpecifics\ToggleExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\TypeSpecifics\ToggleLeftExample.cs" />
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>E:/unity/Box2DStudy/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>E:/unity/Box2DStudy/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/unity/Box2DStudy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/unity/Box2DStudy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/unity/Box2DStudy/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>E:/unity/Box2DStudy/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>E:/unity/Box2DStudy/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/unity/Box2DStudy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/unity/Box2DStudy/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -325,25 +333,25 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
-      <HintPath>E:/unity/Box2DStudy/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
-      <HintPath>E:/unity/Box2DStudy/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization.Config">
-      <HintPath>E:/unity/Box2DStudy/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization">
-      <HintPath>E:/unity/Box2DStudy/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities">
-      <HintPath>E:/unity/Box2DStudy/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
-      <HintPath>E:/unity/Box2DStudy/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/unity/Box2DStudy/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/UnityProject/Box2DStudy/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -62,6 +62,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Basic\MeshRendererAndFilter.cs" />
     <Compile Include="Assets\Scripts\CSharp\LinqStudy.cs" />
+    <Compile Include="Assets\Scripts\Odin\Buttons\ButtonExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Buttons\EnumPagingExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Buttons\EnumToggleButtonsExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Buttons\InlineButtomExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Essentials\AssetsOnlyExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Essentials\CustomValueDrawerExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Essentials\DelayedPropertyExample.cs" />
@@ -83,6 +87,15 @@
     <Compile Include="Assets\Scripts\Odin\Essentials\TypeInfoBoxExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Essentials\ValidateInputExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Essentials\ValueDropdownExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Groups\BoxGroupExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Groups\ButtonGroupExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Groups\FoladoutGroupExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Groups\HorizontalGroupExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Groups\ResponsiveGroupExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Groups\TabGroupExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Groups\TitleGroupExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Groups\ToggleGroupExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Groups\VerticalGroupExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\AssetListExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\AssetSelectorExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\ChildGameObjectOnly.cs" />

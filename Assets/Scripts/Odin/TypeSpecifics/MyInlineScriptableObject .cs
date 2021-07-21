@@ -8,4 +8,7 @@ public class MyInlineScriptableObject : ScriptableObject
 
     [HideInInlineEditors]//在绘制的里面不显示
     public string HiddenInlineEditor;
+
+    [DisableInInlineEditors]//显示但是是灰态
+    public string DisabledInInlineEditor;
 }

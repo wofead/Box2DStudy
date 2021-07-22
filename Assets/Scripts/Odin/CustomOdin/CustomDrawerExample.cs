@@ -1,4 +1,5 @@
 ﻿using Sirenix.OdinInspector;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,4 +9,15 @@ public class CustomDrawerExample : MonoBehaviour
 {
     [HealthBar(100)]
     public float Health;
+
+    public MyStruct MyStruct;
+    [ShowInInspector]
+    public static float labelWidth = 10f;
+}
+
+[Serializable]
+public struct MyStruct
+{
+    public float X;
+    public float Y;
 }

@@ -217,6 +217,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 22.4
+  MyStruct:
+    X: 0
+    Y: 0
 --- !u!4 &26061927
 Transform:
   m_ObjectHideFlags: 0

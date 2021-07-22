@@ -89,6 +89,8 @@
     <Compile Include="Assets\Scripts\Odin\Conditionals\ShowIfExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Conditionals\ShowIfGroupExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Conditionals\ShowInlineEditorsExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\CustomOdin\CustomDrawerExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\CustomOdin\HealthBarAttribute.cs" />
     <Compile Include="Assets\Scripts\Odin\Essentials\AssetsOnlyExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Essentials\CustomValueDrawerExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Essentials\DelayedPropertyExample.cs" />
@@ -142,7 +144,13 @@
     <Compile Include="Assets\Scripts\Odin\Numbers\ProgressBarExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Numbers\RangeExample.cs" />
     <Compile Include="Assets\Scripts\Odin\Numbers\WarpExample.cs" />
-    <Compile Include="Assets\Scripts\Odin\OdinPlayerPrefs.cs" />
+    <Compile Include="Assets\Scripts\Odin\Serialization\OdinPlayerPrefs.cs" />
+    <Compile Include="Assets\Scripts\Odin\Serialization\OdinSerialization.cs" />
+    <Compile Include="Assets\Scripts\Odin\Serialization\OdinStaticInspector.cs" />
+    <Compile Include="Assets\Scripts\Odin\Serialization\SerializationDebuggerOne.cs" />
+    <Compile Include="Assets\Scripts\Odin\Serialization\SerializationDebuggerTwo.cs" />
+    <Compile Include="Assets\Scripts\Odin\Tool\ChangeRaycastTarget.cs" />
+    <Compile Include="Assets\Scripts\Odin\Tool\SearchDuplicateFiles.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\AssetListExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\AssetSelectorExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\ChildGameObjectOnly.cs" />
@@ -164,11 +172,14 @@
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\ShowMonoScriptExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\ToggleExample.cs" />
     <Compile Include="Assets\Scripts\Odin\TypeSpecifics\ToggleLeftExample.cs" />
+    <Compile Include="Assets\Scripts\Odin\Validator\OdinValidator.cs" />
     <Compile Include="Assets\Scripts\UnityEditor\AddComponentMenuExample.cs" />
     <Compile Include="Assets\Scripts\UnityEditor\ContextItemMenuExample.cs" />
     <Compile Include="Assets\Scripts\UnityEditor\ContextMenuExample.cs" />
     <Compile Include="Assets\Scripts\UnityEditor\CreateAssetMenuExample.cs" />
     <Compile Include="Assets\Scripts\UnityEditor\DelayedExample.cs" />
+    <None Include="Assets\Scripts\Duplicate\Test.txt" />
+    <None Include="Assets\Scripts\Test.txt" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>D:/UnityProject/Box2DStudy/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
